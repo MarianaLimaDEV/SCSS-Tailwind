@@ -1,0 +1,10 @@
+$cor-fundo: #222;
+$cor-texto: #fff;
+
+body {
+  background: $cor-fundo;
+  color: $cor-texto;
+  h1 {
+    color: yellow;
+  }
+}
