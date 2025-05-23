@@ -1,0 +1,1 @@
+Estudando sobre SCSS e posteriormente, tailwind
