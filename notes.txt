@@ -1,0 +1,46 @@
+SCSS - sintaxe parecida com CSS
+SASS - sintaxe original, retira ; e {}
+
+variaveis:
+> $ - define variável
+
+exemplo:
+
+    $nome-variavel: #aaa;
+
+    body
+    {
+        background: $nome-variavel; 
+    }
+
+    mais parecido com a sintaxe dos mapas de JS:
+
+    $font-weights:
+    (
+        "regular": 400,
+        "medium": 500,
+        "bold": 700
+    );
+
+    nesting
+    .button
+    {
+        .homepage
+        {
+
+        }
+
+        .focuspage
+        {
+
+        }
+    }
+
+    .button
+    {
+        &:focus{ }
+        &:hover { }
+        &:active { }
+    }
+
+    mixin = pega certas linhas de codigo pra aplicar em outros
