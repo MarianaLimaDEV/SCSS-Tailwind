@@ -1,10 +1,49 @@
-$cor-fundo: #222;
-$cor-texto: #fff;
+/*--------- CONFIGURAÇÕES INICIAIS ---------*/
 
-body {
-  background: $cor-fundo;
-  color: $cor-texto;
-  h1 {
-    color: yellow;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+$cor-fundo: #272832;
+$cor-texto: #c9c9c9;
+$cor1: #7e7e7e;
+$cor2: #6a6a6a;
+
+@mixin reset
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+@mixin base
+{
+  font-family: "Fredoka", sans-serif;
+  color: var(--text-color);
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  min-height: 100dvh;
+  font-weight: normal;
+}
+
+*
+{
+  @include reset;
+}
+
+html, body
+{
+    @include base;
+}
+
+main
+{
+    padding: min(5em, 7%);
+}
+
+/*--------- NAVBAR ---------*/
+
+nav
+{
+    
 }

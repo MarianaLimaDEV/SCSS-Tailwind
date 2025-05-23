@@ -1,9 +1,27 @@
-body {
-  background: #222;
-  color: #fff;
+@charset "UTF-8";
+/*--------- CONFIGURAÇÕES INICIAIS ---------*/
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
-body h1 {
-  color: yellow;
+
+html, body {
+  font-family: "Fredoka", sans-serif;
+  color: var(--text-color);
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  min-height: 100dvh;
+  font-weight: normal;
 }
+
+main {
+  padding: min(5em, 7%);
+}
+
+/*--------- NAVBAR ---------*/
 
 /*# sourceMappingURL=main.css.map */
